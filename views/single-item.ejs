@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size:16px">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Mana App</title>
+  <meta name="author" content="Merb">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/dist/app.css?v=1.0.1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <%- include('header') -%>
+
+  <main id="app" role="main">
+    <edit-consumable :item="<%= JSON.stringify(item) %>"></edit-consumable>
+  </main>
+
+  <%- include('footer') -%>
+  <script src="/dist/app.js"></script>
+</body>
+</html>

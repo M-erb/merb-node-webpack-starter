@@ -1,0 +1,154 @@
+// @import url('https://fonts.googleapis.com/css?family=Satisfy:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,600');
+// @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+// general colors and controls
+$black: #323738;
+$gray: #505050;
+$light_gray: #b5b5b5;
+$lighter_gray: #F0F0F0;
+$extra_light_gray: #F6F6F6;
+$difused_gray: rgba(239, 241, 244, 0.7);
+$controls: #ACB5BF;
+$placeholder: $difused_gray;
+$approved: #2ecc71;
+$warning: #f39c12;
+
+//  color palette
+$color1: #A0E2EF;
+$color2: #E28B73;
+$color3: #919190;
+$color4: #AB94B5;
+$baseColor: #F2F9F7;
+
+// nav colors
+$nav_c: $black;
+$nav_alt: #fff;
+$nav_bkgd: transparent;
+$nav_bkgd_alt: rgba(41,41,41,.9);
+
+// fonts
+$titlesFont: 'open sans', 'lato', sans-serif;
+$readFont: 'lato', sans-serif;
+
+// controls
+$controlsFont: $readFont;
+$borderRadius: 5px;
+
+// header
+$headerHeight: 50px;
+
+// break points
+$xlg_break: "max-width: 2080px";
+$lg_break: "max-width: 1080px";
+$md_break: "max-width: 768px";
+$sm_break: "max-width: 420px";
+
+// social
+.fa-facebook-official, .facebook {
+  color: #3b5998;
+  background-color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+.fa-pinterest, .pinterest {
+  color: #cb2027;
+  background-color: #fff;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+//vue.js
+[v-cloak] {
+  display: none;
+}
+
+/*----SOLID BACKGROUNDS----*/
+.white_solid {
+  background-color: white;
+  color: $black;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+.offwhite_solid {
+  background-color: $light_gray;
+  color: $black;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+.gray_solid {
+  background-color: $gray;
+  color: $lighter_gray;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+
+.ltgray_solid {
+  background-color: $light_gray;
+  color: $lighter_gray;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+
+.darkgray_solid {
+  background-color: $black;
+  color: $lighter_gray;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+
+
+
+.color3_solid {
+  background: $color3;
+  color: #fff;
+  & *::selection {
+    background: $color1;
+  }
+  & *::-moz-selection {
+    background: $color1;
+  }
+}
+
+.color1_solid {
+  background: $color1;
+  color: #fff;
+  & *::selection {
+    background: rgba($color2, .6);
+  }
+  & *::-moz-selection {
+    background: rgba($color2, .6);
+  }
+}
+
+.color2_solid {
+  background: $color2;
+  color: #fff;
+  & *::selection {
+    background: rgba($color1, .6);
+  }
+  & *::-moz-selection {
+    background: rgba($color1, .6);
+  }
+}
